@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[Browser and URL launched successfully]]>
+    </line>
+    <line>
+      <![CDATA[Hover on AccountList and Signin is successfull]]>
+    </line>
+    <line>
+      <![CDATA[Username and Password entered successfully]]>
+    </line>
+    <line>
+      <![CDATA[Test case is passed along with assertion]]>
+    </line>
+    <line>
+      <![CDATA[Searching the product and clicking on the first product from the result and moving control to child window is successfull]]>
+    </line>
+    <line>
+      <![CDATA[Sign Out Successfully]]>
+    </line>
+    <line>
+      <![CDATA[Sign Out Successfully]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2026-03-12T13:58:46 IST" name="Suite" finished-at="2026-03-12T14:00:27 IST" duration-ms="101126">
+    <groups>
+    </groups>
+    <test started-at="2026-03-12T13:58:46 IST" name="Test" finished-at="2026-03-12T14:00:27 IST" duration-ms="101126">
+      <class name="AutomationQA.AmazonProject.TC3_LoginSearchingWishListCartAndLogout">
+        <test-method is-config="true" signature="launchBrowser(java.lang.String)[pri:0, instance:AutomationQA.AmazonProject.TC3_LoginSearchingWishListCartAndLogout@6150c3ec]" started-at="2026-03-12T13:59:03 IST" name="launchBrowser" finished-at="2026-03-12T13:59:13 IST" duration-ms="9117" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="searchingTheProduct_WL_Cart()[pri:0, instance:AutomationQA.AmazonProject.TC3_LoginSearchingWishListCartAndLogout@6150c3ec]" started-at="2026-03-12T13:59:13 IST" name="searchingTheProduct_WL_Cart" finished-at="2026-03-12T14:00:01 IST" duration-ms="48283" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Searching the product and clicking on the first product from the result and moving control to child window is successfull]]>
+            </line>
+            <line>
+              <![CDATA[Sign Out Successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- searchingTheProduct_WL_Cart -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:AutomationQA.AmazonProject.TC3_LoginSearchingWishListCartAndLogout@6150c3ec]" started-at="2026-03-12T14:00:01 IST" name="closeBrowser" finished-at="2026-03-12T14:00:01 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- AutomationQA.AmazonProject.TC3_LoginSearchingWishListCartAndLogout -->
+      <class name="AutomationQA.AmazonProject.TC1_LoginToAmazon">
+        <test-method is-config="true" signature="launchBrowser(java.lang.String)[pri:0, instance:AutomationQA.AmazonProject.TC1_LoginToAmazon@14cd1699]" started-at="2026-03-12T13:58:46 IST" name="launchBrowser" finished-at="2026-03-12T13:58:55 IST" duration-ms="9263" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="withValidCredentials()[pri:0, instance:AutomationQA.AmazonProject.TC1_LoginToAmazon@14cd1699]" started-at="2026-03-12T13:58:55 IST" name="withValidCredentials" finished-at="2026-03-12T13:59:03 IST" duration-ms="7839" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Browser and URL launched successfully]]>
+            </line>
+            <line>
+              <![CDATA[Hover on AccountList and Signin is successfull]]>
+            </line>
+            <line>
+              <![CDATA[Username and Password entered successfully]]>
+            </line>
+            <line>
+              <![CDATA[Test case is passed along with assertion]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- withValidCredentials -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:AutomationQA.AmazonProject.TC1_LoginToAmazon@14cd1699]" started-at="2026-03-12T13:59:03 IST" name="closeBrowser" finished-at="2026-03-12T13:59:03 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- AutomationQA.AmazonProject.TC1_LoginToAmazon -->
+      <class name="AutomationQA.AmazonProject.TC2_LoginToAmazonAndLogout">
+        <test-method is-config="true" signature="launchBrowser(java.lang.String)[pri:0, instance:AutomationQA.AmazonProject.TC2_LoginToAmazonAndLogout@44c03695]" started-at="2026-03-12T14:00:01 IST" name="launchBrowser" finished-at="2026-03-12T14:00:14 IST" duration-ms="13038" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="loginAndLogout()[pri:0, instance:AutomationQA.AmazonProject.TC2_LoginToAmazonAndLogout@44c03695]" started-at="2026-03-12T14:00:14 IST" name="loginAndLogout" finished-at="2026-03-12T14:00:27 IST" duration-ms="12815" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Sign Out Successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- loginAndLogout -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:AutomationQA.AmazonProject.TC2_LoginToAmazonAndLogout@44c03695]" started-at="2026-03-12T14:00:27 IST" name="closeBrowser" finished-at="2026-03-12T14:00:27 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- AutomationQA.AmazonProject.TC2_LoginToAmazonAndLogout -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
