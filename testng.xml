@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+  <parameter name="Browsers" value="chrome"></parameter>
+    <classes>
+      <class name="AutomationQA.AmazonProject.TC1_LoginToAmazon"/>
+      <class name="AutomationQA.AmazonProject.TC3_LoginSearchingWishListCartAndLogout"/>
+      <class name="AutomationQA.AmazonProject.TC2_LoginToAmazonAndLogout"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
